@@ -9,7 +9,7 @@ import java.util.Deque;
 public class ValidParentheses {
   public boolean isValid(String s) {
     char[] charArray = s.toCharArray();
-    Deque<Character> stack = new ArrayDeque();
+    Deque<Character> stack = new ArrayDeque<Character>();
     for (final char c : charArray) {
       if (c == '(')
         stack.push(')');
