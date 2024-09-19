@@ -2,7 +2,8 @@ package src.main.java.util;
 
 public class BinarySearch {
 
-  // Returns index of x if it is present in arr[].
+  // Iterative approach, since it groks with my brain better :)
+  // Returns index of x if it is present in arr[]
   public int binarySearch(int arr[], int x) {
     int low = 0, high = arr.length - 1;
     while (low <= high) {
@@ -21,8 +22,7 @@ public class BinarySearch {
         high = mid - 1;
     }
 
-    // If we reach here, then element was
-    // not present
+    // If we reach here, then element was not present
     return -1;
   }
 }
