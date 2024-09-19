@@ -2,6 +2,7 @@ package src.main.java.solutions;
 
 import java.util.HashSet;
 
+// LC 3
 public class LongestSubstringWithNoRepeats {
   // First attempt: WRONG
   // public int lengthOfLongestSubstring(String s) {

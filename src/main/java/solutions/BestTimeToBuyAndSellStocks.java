@@ -1,5 +1,6 @@
 package src.main.java.solutions;
 
+// LC 121
 public class BestTimeToBuyAndSellStocks {
   // First submission: time limit exceeded, passed 203/212
   // public int maxProfit(int[] prices) {

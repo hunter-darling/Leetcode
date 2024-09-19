@@ -3,6 +3,7 @@ package src.main.java.solutions;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+// LC 20
 public class ValidParentheses {
   public boolean isValid(String s) {
     char[] charArray = s.toCharArray();
