@@ -1,4 +1,4 @@
-package models;
+package model;
 
 /**
  * Definition for singly-linked list.

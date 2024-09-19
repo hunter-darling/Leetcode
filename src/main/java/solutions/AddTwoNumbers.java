@@ -1,6 +1,6 @@
 package solutions;
 
-import models.ListNode;
+import model.ListNode;
 
 public class AddTwoNumbers {
   public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
