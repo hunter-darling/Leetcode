@@ -47,8 +47,8 @@ public class ValidAnagram {
         characterCountMap.put(c, characterCountMap.get(c) - 1);
       }
     }
-    System.out.println(characterCountMap.keySet());
-    System.out.println(characterCountMap.values());
+    // System.out.println(characterCountMap.keySet());
+    // System.out.println(characterCountMap.values());
     for (int count : characterCountMap.values()) {
       if (count > 0) {
         return false;
