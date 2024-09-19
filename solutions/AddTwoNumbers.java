@@ -1,5 +1,7 @@
 package solutions;
 
+import models.ListNode;
+
 public class AddTwoNumbers {
   public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
     ListNode start = new ListNode(0);

@@ -1,3 +1,7 @@
+package solutions;
+
+import models.ListNode;
+
 class MergeTwoLinkedLists {
   // Definition for singly-linked list.
 
