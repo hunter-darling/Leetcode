@@ -2,7 +2,9 @@ package src.main.java.solutions;
 
 import src.main.java.model.ListNode;
 
-// LC 2
+/**
+ * LC 2. Add Two Numbers
+ */
 public class AddTwoNumbers {
   public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
     ListNode start = new ListNode(0);

@@ -2,7 +2,9 @@ package src.main.java.solutions;
 
 import java.util.HashSet;
 
-// LC 3
+/**
+ * LC 3. Longest Substring Without Repeating Characters
+ */
 public class LongestSubstringWithNoRepeats {
   // First attempt: WRONG
   // public int lengthOfLongestSubstring(String s) {

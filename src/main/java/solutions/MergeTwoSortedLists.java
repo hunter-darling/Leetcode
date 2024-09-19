@@ -2,8 +2,10 @@ package src.main.java.solutions;
 
 import src.main.java.model.ListNode;
 
-// LC 21
-class MergeTwoLinkedLists {
+/**
+ * LC 21. Merge Two Sorted Lists
+ */
+class MergeTwoSortedLists {
   // Definition for singly-linked list.
 
   public ListNode mergeTwoLists(ListNode list1, ListNode list2) {

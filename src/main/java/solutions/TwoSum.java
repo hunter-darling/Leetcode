@@ -3,7 +3,9 @@ package src.main.java.solutions;
 import java.util.HashMap;
 import java.util.Map;
 
-// LC 1
+/**
+ * LC 1. Two Sum
+ */
 public class TwoSum {
   public int[] twoSum(int[] nums, int target) {
     Map<Integer, Integer> numToIndexMap = new HashMap<>();
