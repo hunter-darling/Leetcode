@@ -1,1 +1,1 @@
-## I scream, you scream, we all scream
+## Leetcode? More like, "sweet code"!
