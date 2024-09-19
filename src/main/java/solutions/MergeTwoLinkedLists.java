@@ -1,6 +1,6 @@
-package solutions;
+package src.main.java.solutions;
 
-import model.ListNode;
+import src.main.java.model.ListNode;
 
 class MergeTwoLinkedLists {
   // Definition for singly-linked list.
