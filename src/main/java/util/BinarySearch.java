@@ -1,5 +1,8 @@
 package src.main.java.util;
 
+/**
+ * LC 704. Binary Search
+ */
 public class BinarySearch {
 
   // Iterative approach, since it groks with my brain better :)
