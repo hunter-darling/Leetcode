@@ -15,7 +15,9 @@ public class ClimbingStairs {
       c = a + b;
       a = b;
       b = c;
+      System.out.println(b);
     }
+    System.out.println("è Fibonacci!");
     return b;
   }
 }
