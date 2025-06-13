@@ -25,6 +25,7 @@ Return the *minimum number of minutes that must elapse until no cell has a fresh
 - Needing to check 4-directionally => BFS
 - Should use a Queue DS
 - Init Q with initial rotten orange, pop through each, then add next/new rotten oranges to the Q, then pop through each of those, each pop through, we increment a unit of time
+- Update grid cells in place (rot oranges)
 - After Queue is completely empty, we may end up with an orange that is still fresh, so we'll need to keep track of fresh oranges
 
 ### Implementation

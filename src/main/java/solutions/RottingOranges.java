@@ -29,6 +29,7 @@ public class RottingOranges {
           int newCol = current[1] + direction[1];
           if (newRow >= 0 && newRow < grid.length && newCol >= 0 && newCol < grid[0].length
               && grid[newRow][newCol] == 1) {
+            // Rot the orange
             grid[newRow][newCol] = 2;
             queue.offer(new int[] { newRow, newCol });
             fresh--;
