@@ -2,7 +2,7 @@ package src.main.java.solutions;
 
 import java.util.HashMap;
 
-public class LongestPalindrom {
+public class LongestPalindrome {
 
   public int longestPalindromeFirstAttempt(String s) {
     HashMap<Character, Integer> charMap = new HashMap<Character, Integer>();
