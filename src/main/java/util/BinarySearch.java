@@ -7,7 +7,7 @@ public class BinarySearch {
 
   // Iterative approach, since it groks with my brain better :)
   // Returns index of x if it is present in arr[]
-  public int binarySearch(int arr[], int x) {
+  public int binarySearch(int[] arr, int x) {
     int low = 0, high = arr.length - 1;
     while (low <= high) {
       int mid = low + (high - low) / 2;
