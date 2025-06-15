@@ -23,6 +23,8 @@ You must write an algorithm with `O(log n)` runtime complexity.
 ### Implementation
 - Uses modified binary search algo
 - Checks whether each 'half' created by traditional BS algo is sorted as well as whether the target is between the upper and lower bounds of each 'half'
+  - If a half is not sorted (i.e. the pivot index exists in said half), then we check the other half
+    - If the target is not in said other half, we move the mid point to the corresponding upper or lower bound (+/-1)
 
 ### Complexity
 - Time Complexity: `O(log n)`
