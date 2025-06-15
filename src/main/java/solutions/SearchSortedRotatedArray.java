@@ -8,7 +8,7 @@ public class SearchSortedRotatedArray {
       if (nums[mid] == target)
         return mid;
       if (nums[low] <= nums[mid]) {
-        // 'lower half'
+        // 'lower half sorted (pivot point not present)'
         if (nums[low] <= target && target < nums[mid]) {
           // move the upper bound down
           high = mid - 1;
@@ -17,7 +17,7 @@ public class SearchSortedRotatedArray {
           low = mid + 1;
         }
       } else {
-        // 'upper half'
+        // 'upper half sorted (pivot point not present)'
         if (nums[mid] < target && target <= nums[high]) {
           // move the lower bound up
           low = mid + 1;
