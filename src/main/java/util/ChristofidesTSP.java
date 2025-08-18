@@ -109,7 +109,6 @@ public class ChristofidesTSP {
     Set<Integer> odd = getOddDegreeVertices(mst);
     System.out.println("Odd degree vertices: " + odd);
 
-    List<int[]> match = minMatching(odd);
     System.out.println("Matching edges:");
     for (int[] edge : bestMatching)
       System.out.println(cities[edge[0]] + " - " + cities[edge[1]]);
