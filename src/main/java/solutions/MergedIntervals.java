@@ -34,6 +34,7 @@ public class MergedIntervals {
     }
     return merged.toArray(new int[merged.size()][]);
   }
+  
   // Potential improvement: edit in place?
   public int[][] mergeInPlace(int[][] intervals) {
     if (intervals.length == 1) {
